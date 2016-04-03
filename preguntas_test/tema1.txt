@@ -1,0 +1,17 @@
+<pregunta>
+  <enunciado>Una granja web es un sistema:</enunciado>
+  <opcionA>flexible y poco funcional</opcionA>
+  <opcionB>poco flexible y funcional</opcionB>
+  <opcionC>flexible y funcional</opcionC>
+  <opcionD>poco flexible y poco funcional</opcionD>
+  <solucion>C</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>Posibles formas de empezar a trabajar en un servidor web:</enunciado>
+  <opcionA>Optar por una posible configuracion basica para empezar a trabajar ya y tener al cliente contento.</opcionA>
+  <opcionB>Configurar directamente.</opcionB>
+  <opcionC>Montar el servidor y planificar.</opcionC>
+  <opcionD>Planificar y configurar.</opcionD>
+  <solucion>D</solucion>
+</pregunta>
