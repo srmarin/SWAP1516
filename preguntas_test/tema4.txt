@@ -1,0 +1,16 @@
+<pregunta>
+  <enunciado>El balanceador de carga</enunciado>
+  <opcionA>Solamente se encarga de redirigir el tráfico a los servidores finales</opcionA>
+  <opcionB>Debe devolver los recursos que tenga en caché directamente a los clientes para no sobrecargar a los servidores finales</opcionB>
+  <opcionC>Puede comprobar la disponibilidad y la carga de los servidores finales para adecuar el tráfico que redirige a cada uno</opcionC>
+  <opcionD>Siempre reparte el tráfico siguiendo un algoritmo Round-Robin, pues este reparte la carga equitativamente</opcionD>
+  <solucion>C</solucion>
+</pregunta>
+<pregunta>
+  <enunciado>En una granja web, los servidores finales</enunciado>
+  <opcionA>Devuelven la respuesta directamente a la IP del cliente, estableciendo como IP de origen la VIP del balanceador</opcionA>
+  <opcionB>Devuelven la respuesta al balanceador, estableciendo como IP de origen la VIP del balanceador</opcionB>
+  <opcionC>Devuelven la respuesta al balanceador, estableciendo como IP de origen su propia IP</opcionC>
+  <opcionD>B y C son correctas, aunque la B es más eficiente</opcionD>
+  <solucion>D</solucion>
+</pregunta>

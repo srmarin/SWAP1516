@@ -1,0 +1,16 @@
+<pregunta>
+  <enunciado>Factor a tener en cuenta respecto al servicio de un servidor</enunciado>
+  <opcionA>Disponibilidad</opcionA>
+  <opcionB>Balanceador de carga</opcionB>
+  <opcionC>Escalabilidad</opcionC>
+  <opcionD>Todas son correctas</opcionD>
+  <solucion>D</solucion>
+</pregunta>
+<pregunta>
+  <enunciado>Para medir la disponibilidad de un servidor se usa la formula</enunciado>
+  <opcionA>10 + (tiempoCaido / periodoTiempo) * 100</opcionA>
+  <opcionB>100 - (tiempoCaido / periodoTiempo) / 100</opcionB>
+  <opcionC>100 - (tiempoCaido / periodoTiempo) * 100</opcionC>
+  <opcionD>Uptime / (Uptime - Downtime)</opcionD>
+  <solucion>C</solucion>
+</pregunta>

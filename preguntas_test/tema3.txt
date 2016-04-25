@@ -1,0 +1,16 @@
+<pregunta>
+  <enunciado>Para configurar la red de un sistema web se requiere:</enunciado>
+  <opcionA>Elegir modelo de red más adecuado y aislar subredes</opcionA>
+  <opcionB>Elegir el modelo de red, el hardware, aislar subredes y definir los puntos de entrada a las subredes</opcionB>
+  <opcionC>Elegir hardware, elegir software para controlar el sistema web y definir los puntos de acceso</opcionC>
+  <opcionD>Todas son falsas</opcionD>
+  <solucion>B</solucion>
+</pregunta>
+<pregunta>
+  <enunciado>Una configuración con DMZ simple se basa en:</enunciado>
+  <opcionA>Los servidores de base de datos y correo y el resto de máquinas tienen un cortafuegos para protegerse de posibles ataques</opcionA>
+  <opcionB>Todos los servidores se encuentran tras un cortafuegos en una subred, la red corporativa también está en otra subred detrás del cortafuegos</opcionB>
+  <opcionC>Todos los servidores están tras un cortafuegos conectados a Internet y tras otro cortafuegos conectados a la subred corporativa</opcionC>
+  <opcionD>Todos los servidores y las otras máquinas están conectadas en una subred</opcionD>
+  <solucion>A</solucion>
+</pregunta>
