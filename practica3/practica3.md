@@ -29,11 +29,11 @@ sudo nano /etc/nginx/nginx.conf
 ```
 Dejándolo tal que así:
 
-![Modificar archivo](https://github.com/pavocejudo/SWAP1516/blob/master/practica3//nueva.jpg)
+![Modificar archivo](https://github.com/pavocejudo/SWAP1516/blob/master/practica3/nueva.jpg)
 
 Para comprobar su funcionamiento, accedemos a la IP y vemos cómo carga alternativamente ambas máquinas.
 
-![](https://github.com/pavocejudo/SWAP1516/blob/master/practica3/balaceador.png)
+![Ejemplos de balanceo entre servidores](https://github.com/pavocejudo/SWAP1516/blob/master/practica3/balaceador.png)
 
 Añadiendo el parámetro *weight* cambiamos el "peso" que tiene cada servidor:
 (dentro del archivo )
