@@ -15,12 +15,12 @@ Previamente a la instalación debemos añadir el repositorio al fichero /etc/apt
 ```
 sudo nano /etc/apt/sources.list
 ```
-![Añadiendo repositorios al final del archivo](https://github.com/pavocejudo/SWAP1516/blob/master/practica-3/3.png)
+![Añadiendo repositorios al final del archivo](https://github.com/pavocejudo/SWAP1516/blob/master/practica3/3.png)
 
 ```
 sudo apt-get install nginx
 ```
-![instalación de nginx](https://github.com/pavocejudo/SWAP1516/blob/master/practica-3/6.png)
+![instalación de nginx](https://github.com/pavocejudo/SWAP1516/blob/master/practica3/6.png)
 
 Para el perfecto uso de esta herramientas, debemos modificar el archivo */etc/nginx/nginx.conf*
 
@@ -29,11 +29,11 @@ sudo nano /etc/nginx/nginx.conf
 ```
 Dejándolo tal que así:
 
-![Modificar archivo](https://github.com/pavocejudo/SWAP1516/blob/master/practica-3//nueva.jpg)
+![Modificar archivo](https://github.com/pavocejudo/SWAP1516/blob/master/practica3//nueva.jpg)
 
-Para comprobar su funcionamiento, accedemos a la IP y vemos como carga alternativamente ambas máquinas.
+Para comprobar su funcionamiento, accedemos a la IP y vemos cómo carga alternativamente ambas máquinas.
 
-![](https://github.com/pavocejudo/SWAP1516/blob/master/practica-3/balaceador.png)
+![](https://github.com/pavocejudo/SWAP1516/blob/master/practica3/balaceador.png)
 
 Añadiendo el parámetro *weight* cambiamos el "peso" que tiene cada servidor:
 (dentro del archivo )
@@ -45,7 +45,7 @@ upstream apaches {
   server 192.168.1.101 weight=2;
 }
 ```
-![balanceador con peso](https://github.com/pavocejudo/SWAP1516/blob/master/practica-3/9.jpg)
+![balanceador con peso](https://github.com/pavocejudo/SWAP1516/blob/master/practica3/9.jpg)
 
 
 # Configurar e instalar haproxy como balanceador de carga
@@ -63,11 +63,11 @@ sudo nano /etc/haproxy/haproxy.cfg
 ```
 Quedando tal que así:
 
-![Archivo modificado](https://github.com/pavocejudo/SWAP1516/blob/master/practica-3/7.jpg)
+![Archivo modificado](https://github.com/pavocejudo/SWAP1516/blob/master/practica3/7.jpg)
 
 Finalmente hacemos funcionar el programa
 
 ```
 /usr/sbin/haproxy -f /etc/haproxy/haproxy.cfg
 ```
-![Programa funcionando](https://github.com/pavocejudo/SWAP1516/blob/master/practica-3/8.jpg)
+![Programa funcionando](https://github.com/pavocejudo/SWAP1516/blob/master/practica3/8.jpg)
