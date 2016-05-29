@@ -56,9 +56,6 @@ Esto nos mostrará lo siguiente:
 
 Al acceder, comprobamos que no nos pide la contraseña
 
-![]()
-
-
 
 ## Establecer un cron para actualizar el contenido de */var/www* entre las dos máquinas
 

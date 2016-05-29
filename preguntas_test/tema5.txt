@@ -1,0 +1,16 @@
+<pregunta>
+  <enunciado>¿Qué tipo de prueba es las más parecidas a la actividad real?</enunciado>
+  <opcionA>Humo(Smoke) </opcionA>
+  <opcionB>Carga(Load)</opcionB>
+  <opcionC>Sobrecarga(Overload)</opcionC>
+  <opcionD>Estrés(Stress)</opcionD>
+  <solucion>B</solucion>
+</pregunta>
+<pregunta>
+  <enunciado>En un patrón de tráfico FTP/streaming, las métricas más importantes son:</enunciado>
+  <opcionA>Conexiones por segundo</opcionA>
+  <opcionB>Rendimiento</opcionB>
+  <opcionC>Total de conexiones concurrentes</opcionC>
+  <opcionD>B y C</opcionD>
+  <solucion>D</solucion>
+</pregunta>
