@@ -41,8 +41,8 @@ Añadiendo el parámetro *weight* cambiamos el "peso" que tiene cada servidor:
 ```
 upstream apaches {
 
-  server 192.168.1.100 weight=1;
-  server 192.168.1.101 weight=2;
+  server 192.168.1.100 weight=2;
+  server 192.168.1.101 weight=1;
 }
 ```
 ![balanceador con peso](https://github.com/pavocejudo/SWAP1516/blob/master/practica3/9.jpg)
