@@ -7,7 +7,7 @@ Esta práctica se ha realizado con 2 máquinas virtuales **server1 -> 192.168.1.
 
 Antes de nada debemos de tener algunos datos que copiar, a la hora de crear una nueva base de datos MySQL. Introducimos los siguientes datos:
 
-![Datos introducidos en la BD]()
+![Datos introducidos en la BD](https://github.com/pavocejudo/SWAP1516/blob/master/practica5/1.jpg)
 
 # Backup manual
 
